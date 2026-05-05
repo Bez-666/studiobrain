@@ -1,0 +1,243 @@
+<index.html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Brain — Privacy Policy</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Outfit:wght@400;500;600&display=swap');
+
+```
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #0a0a0a;
+  color: #c0c0c0;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  padding: 60px 24px;
+}
+
+.page {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.top-bar {
+  height: 3px;
+  background: #00e5ff;
+  margin-bottom: 48px;
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.logo-mark {
+  width: 36px;
+  height: 36px;
+  background: #00e5ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  flex-shrink: 0;
+}
+
+.logo-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+
+.logo-sub {
+  font-size: 11px;
+  color: #444;
+  font-family: 'DM Mono', monospace;
+  margin-top: 2px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #f0f0f0;
+  margin-bottom: 8px;
+  letter-spacing: -0.3px;
+}
+
+.updated {
+  font-size: 12px;
+  font-family: 'DM Mono', monospace;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #f0f0f0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'DM Mono', monospace;
+  margin: 36px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+p {
+  color: #888;
+  margin-bottom: 16px;
+}
+
+ul {
+  color: #888;
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+strong { color: #c0c0c0; }
+
+a {
+  color: #00e5ff;
+  text-decoration: none;
+}
+
+.highlight-box {
+  background: #111;
+  border: 1px solid #1a1a1a;
+  border-left: 3px solid #00e5ff;
+  padding: 16px 20px;
+  margin: 24px 0;
+  font-size: 14px;
+  color: #888;
+  line-height: 1.7;
+}
+
+.highlight-box strong {
+  display: block;
+  color: #f0f0f0;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+.contact-box {
+  background: #111;
+  border: 1px solid #1a1a1a;
+  padding: 20px;
+  margin-top: 40px;
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  color: #555;
+}
+
+.contact-box a { color: #00e5ff; }
+
+footer {
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid #1a1a1a;
+  font-size: 11px;
+  font-family: 'DM Mono', monospace;
+  color: #2a2a2a;
+  text-align: center;
+}
+```
+
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <div class="top-bar"></div>
+
+  <div class="logo-row">
+    <div class="logo-mark">SB</div>
+    <div>
+      <div class="logo-name">Studio Brain</div>
+      <div class="logo-sub">AI for Tattoo Artists</div>
+    </div>
+  </div>
+
+  <h1>Privacy Policy</h1>
+  <div class="updated">Last updated: May 2026</div>
+
+  <div class="highlight-box">
+    <strong>The short version</strong>
+    Studio Brain does not collect, store, or sell any personal data. Your messages are sent directly from your browser to your chosen AI provider (Anthropic or OpenAI). Nothing passes through our servers because we don't have any.
+  </div>
+
+  <h2>1. What Studio Brain Does</h2>
+  <p>Studio Brain is a Chrome browser extension that helps tattoo artists write replies to client emails and Instagram DMs using AI. It reads the text of open messages in your Gmail or Instagram tabs and sends that text to an AI API to generate a suggested reply.</p>
+
+  <h2>2. What Data We Collect</h2>
+  <p><strong>We collect nothing.</strong> Studio Brain has no backend server, no database, and no analytics. We have no way to receive, store, or access any information about you or your clients.</p>
+
+  <h2>3. What Data Leaves Your Browser</h2>
+  <p>When you click Generate Reply, the following information is sent <strong>directly from your browser</strong> to your chosen AI provider:</p>
+  <ul>
+    <li>The text of the open email or DM</li>
+    <li>Your artist name and studio name (as entered in Settings)</li>
+    <li>Your studio address (if entered in Settings)</li>
+    <li>Your API key (sent as an authentication header)</li>
+  </ul>
+  <p>This request goes directly to Anthropic or OpenAI — not to us. We never see it.</p>
+
+  <h2>4. AI Providers</h2>
+  <p>Depending on which provider you select in Settings, your data is processed by:</p>
+  <ul>
+    <li><strong>Anthropic (Claude)</strong> — <a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a></li>
+    <li><strong>OpenAI (ChatGPT)</strong> — <a href="https://openai.com/privacy" target="_blank">openai.com/privacy</a></li>
+  </ul>
+  <p>Both providers have their own privacy policies governing how they handle API requests. By default, neither provider trains their models on API request data unless you opt in to data sharing in your account settings with them.</p>
+
+  <h2>5. Your API Key</h2>
+  <p>Your API key is stored locally in Chrome's sync storage (<code>chrome.storage.sync</code>). This means it is stored on your device and optionally synced across your Chrome devices via your Google account. It is never transmitted to Studio Brain or any third party other than the AI provider it belongs to.</p>
+
+  <h2>6. Your Studio Settings</h2>
+  <p>Your name, studio name, address, and reply preferences are stored in <code>chrome.storage.sync</code> — locally on your device. We cannot access this data.</p>
+
+  <h2>7. Client Data</h2>
+  <p>Studio Brain reads message text from Gmail and Instagram in order to generate replies. This text is processed in your browser and sent to your AI provider. It is not stored by Studio Brain at any point. You are responsible for ensuring your use of AI tools complies with any applicable data protection obligations you have to your clients.</p>
+
+  <h2>8. Permissions Explained</h2>
+  <ul>
+    <li><strong>mail.google.com</strong> — Required to read email text and insert replies in Gmail</li>
+    <li><strong>instagram.com</strong> — Required to read DM text and insert replies on Instagram web</li>
+    <li><strong>api.anthropic.com / api.openai.com</strong> — Required to send message text to the AI provider you selected</li>
+    <li><strong>chrome.storage</strong> — Required to save your API key and settings locally</li>
+  </ul>
+  <p>No other permissions are requested or used.</p>
+
+  <h2>9. Children's Privacy</h2>
+  <p>Studio Brain is intended for use by professional tattoo artists and is not directed at children under 13. We do not knowingly collect data from children.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>If this policy changes, the updated version will be published at this URL with a new date. Continued use of the extension after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>11. Contact</h2>
+  <div class="contact-box">
+    Questions about this privacy policy?<br><br>
+    Email: <a href="mailto:hello@studiobrain.ai">hello@studiobrain.ai</a><br>
+    Product: Studio Brain Chrome Extension<br>
+    Version: 1.5
+  </div>
+
+  <footer>
+    Studio Brain — AI for Tattoo Artists · studiobrain.ai · Privacy Policy · May 2026
+  </footer>
+
+</div>
+</body>
+</html>
